@@ -1,7 +1,9 @@
 package com.murli.Manohar.services;
 
 import com.murli.Manohar.model.TermInsurance;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TermInsuranceServiceImpl implements TermInsuranceService {
     @Override
     public double insuranceCalculator(TermInsurance termInsurance) {
